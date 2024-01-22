@@ -1,0 +1,146 @@
+#home{
+    height: 100vh;
+    background-image: linear-gradient( rgba(255, 0, 0, 0.308) 0% 100% ) , url('../Images/events-heavenly-header.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#left-menu{
+    /* width: 250px; */
+    display: none;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+#left-menu a{
+    color: #fff;
+    font-size: 23px;
+    text-decoration: none;
+    margin-block: 25px;
+    margin-left: 40px;
+}
+#left-menu .closebtn{
+    margin-left: 180px; 
+    font-size: 26px;   
+}
+.openn{
+    position: absolute;
+    z-index: 3984523490;
+    color: #fff;
+    /* left: 250px; */
+    left: 0;
+    top: 50%;
+    transform: translateY(-50);
+    font-size: 24px;
+    cursor: pointer;
+}
+.home-content{
+   color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% , -50%);
+   text-align: center;
+}
+.inner-signer{
+    background:#CCCCCC;
+    /* margin-top: -8px; */
+}
+.dif{
+    margin-top: -16px;
+}
+.sig-color{
+    background-color: #E68285;
+    margin-bottom: -8px;
+}
+#containrerr{
+    background-image: linear-gradient( rgba(255, 0, 0, 0.308) 0% 100% ) , url('../Images/invitation-2508607__340.jpg');
+    padding: 90px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+.content{
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 50px 90px;
+}
+.send-btn{
+    background-color: #D62E33;
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+}
+#Contact{
+    padding: 40px 0px;
+}
+#Contact i{
+    color: gray;
+}
+.text-color{
+    color: #0000008c;
+}
+.dif-2{
+    color: #D62E33;
+    text-align: center;
+}
+.dif3{
+    color: gray;
+}
+.social-list{
+    margin-top: 40px;
+}
+.social-list i{
+    width: 35px;
+    height: 35px;
+    border: 1px solid #000;
+    margin-right: 15px;
+    padding-top: 9px;
+    color: gray;
+}
+.social-list i:hover{
+    background-color: #D62E33;
+    color: #fff;
+}
+.dif4{
+    border-color: #0000005d;
+}
+.side-list{
+    background-color: #000;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    /* position: fixed;
+    z-index: 99999; */
+    
+}
+.side-list a{
+    color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    margin-block:40px ;
+    transition: .3s;
+}
+.side-list a:hover{
+    color: #D62E33;
+}
+.sidebar .sideAction{
+    color: #fff;
+    font-size: 25px;
+}
+.sidebar .sideAction span{
+    cursor: pointer;
+}
+.side-list .closeBtn{
+    margin-left: 140px;
+    font-size: 36px;
+}
+
